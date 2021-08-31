@@ -80,5 +80,5 @@ function longestSubsequence(word, dictionary) {
     return longestWord(subsequences);
 }
 
-let result = longestSubsequence('javascript', dictionary);
+let result = longestSubsequence(word, dictionary);
 console.log(result);
